@@ -16,7 +16,6 @@ categories: jekyll update
 
 
 ### 1. Jekyll 설치하기
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
 #### 1.1. 필수 패키지 설치
 
 먼저, Ruby와 RubyGems를 설치합니다. 설치 방법은 아래 링크를 참조하세요:
@@ -30,10 +29,9 @@ categories: jekyll update
 ```bash
 gem install jekyll bundler
 ```
-</div>
 
 ### 2. Jekyll 프로젝트 생성
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
+
 #### 2.1. 프로젝트 폴더 생성 및 이동
 
 새로운 폴더를 만들고 해당 폴더로 이동합니다. 예를 들어, `tutorial` 폴더를 만들고 이동합니다.
@@ -50,13 +48,12 @@ cd tutorial
 ```bash
 jekyll new --skip-bundle .
 ```
-</div>
+
 ### 3. Visual Studio Code에서 프로젝트 열기
 
 VS Code를 열고, `tutorial` 폴더를 엽니다.
 
 ### 4. Gemfile 편집
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
 
 #### 4.1. Gemfile 열기
 
@@ -74,9 +71,8 @@ gem "github-pages", group: :jekyll_plugins
 ```bash
 bundle install
 ```
-</div>
+
 ### 5. GitHub와 연결하기
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
 
 #### 5.1. GitHub CLI 설치 및 로그인
 
@@ -108,23 +104,20 @@ git add .
 git commit -m "First commit"
 git push origin master
 ```
-</div>
+
 ### 6. GitHub Pages 설정
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
 
 #### 6.1. GitHub Pages 활성화
 
 GitHub 레포지토리 설정(Settings)에서 Pages 섹션으로 이동합니다. Source를 "Deploy from a branch"로 설정하고, Branch를 "master" 또는 "main"으로 설정합니다.
-</div>
+
 ### 7. 사이트 설정
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
 
 #### 7.1. _config.yml 파일 편집
 
 VS Code에서 `_config.yml` 파일을 열고 사이트 이름, 설명 등을 변경합니다.
-</div>
+
 ### 8. 글 작성
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
 
 #### 8.1. Markdown 파일 생성
 
@@ -150,10 +143,9 @@ git add .
 git commit -m "Uploaded first post"
 git push origin master
 ```
-</div>
 
 ### 9. Chirpy 테마 사용 (선택사항)
-<div style="border: 1px solid #000; padding: 10px; margin: 10px 0;">
+
 #### 9.1. Chirpy 템플릿 사용
 
 Chirpy 템플릿을 사용하여 새로운 레포지토리를 생성합니다. [Chirpy 스타터 레포지토리](https://github.com/cotes2020/chirpy-starter)에서 "Use this template" 버튼을 클릭하여 새 레포지토리를 생성합니다.
@@ -179,4 +171,3 @@ bundle
 #### 9.4. _config.yml 파일 편집
 
 VS Code에서 `_config.yml` 파일을 열고 필요한 설정을 변경합니다.
-</div>
